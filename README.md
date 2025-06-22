@@ -1,4 +1,4 @@
-````markdown
+
 # Predicting Speed, Heading & Depth from Sonar Image Sequences
 
 **Author:** Akshat Gupta  
@@ -32,7 +32,7 @@ I used Python, PyTorch, and standard data-science libraries. All code is include
    ```bash
    python extract_rosbag.py --bag mysession.bag \
        --output topics_combined.csv,_speed.csv
-````
+
 
 3. **Result**: 8 folders, each with a `topics_combined.csv` and `_speed.csv`.
 
