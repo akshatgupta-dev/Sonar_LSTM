@@ -15,6 +15,7 @@ In this exercise, we build a end-to-end pipeline that takes short sequences of u
 
 I used Python, PyTorch, and standard data-science libraries. All code is included. I also tried multiple architectures and ran each best model three times to measure stability. A 10-minute screencast demonstrating the code and results is available here:  
 [▶️ Experiment Video (YouTube)](https://youtu.be/your-video-link)
+#add video link
 
 ---
 
