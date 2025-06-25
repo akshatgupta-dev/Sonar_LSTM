@@ -14,8 +14,7 @@ In this exercise, we build a end-to-end pipeline that takes short sequences of u
 - **Water depth**
 
 I used Python, PyTorch, and standard data-science libraries. All code is included. I also tried multiple architectures and ran each best model three times to measure stability. A 10-minute screencast demonstrating the code and results is available here:  
-[▶️ Experiment Video (YouTube)](https://youtu.be/your-video-link)
-#add video link
+[▶️ Experiment Video (YouTube)](https://youtu.be/tMg6o7r5NPQ)
 
 ---
 
@@ -198,8 +197,7 @@ Overall, this exercise confirms that CNN–LSTM models can effectively leverage 
 ## 10. Code & Video
 
 * **All Python code** (data extraction, preprocessing, model, training, evaluation) is included in `sonar_project/`.
-* **Experiment screencast (10 min)**: [▶️ YouTube Link](https://youtu.be/your-video-link)
-# add link to video
+* **Experiment screencast (10 min)**: [▶️ YouTube Link](https://youtu.be/tMg6o7r5NPQ)
 * **Environment**: Docker container `yolov7` on AI server, Python 3.8, PyTorch 1.13
 
 ---
