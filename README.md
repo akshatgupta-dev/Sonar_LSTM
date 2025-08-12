@@ -38,7 +38,7 @@ I used Python, PyTorch, and standard data-science libraries. All code is include
 
 ---
 
-## 3. Data Handling & Preprocessing (20 %)
+## 3. Data Handling & Preprocessing 
 
 ### 3.1 Concatenation & Tagging
 
@@ -80,7 +80,7 @@ This clean separation of data logic made experiments with different T, batch siz
 
 ---
 
-## 5. Model Architecture & Training Strategy (40 %)
+## 5. Model Architecture & Training Strategy 
 
 ### 5.1 Base CNN–LSTM
 
@@ -111,7 +111,7 @@ I printed “Using device: cuda” at start to confirm GPU use.
 
 ---
 
-## 6. Hyperparameter Exploration & 3× Robustness (10 %)
+## 6. Hyperparameter Exploration & 3× Robustness 
 
 I ran three independent trainings of the *same* architecture (different random seeds). All runs converged in \~20 epochs:
 
@@ -127,8 +127,7 @@ I ran three independent trainings of the *same* architecture (different random s
 
 ---
 
-## 7. Test-Set Evaluation (10 %)
-
+## 7. Test-Set Evaluation 
 Predictions from `model_run1.pt`, `model_run2.pt`, `model_run3.pt` on the held-out test set:
 
 |   Run   |  Speed MSE |   COG MSE  |  Depth MSE | Overall MSE |
@@ -138,14 +137,12 @@ Predictions from `model_run1.pt`, `model_run2.pt`, `model_run3.pt` on the held-o
 |    3    |   0.1059   |   6.4471   |   6.5358   |    4.3629   |
 | **Avg** | **0.0983** | **6.7847** | **6.5197** |  **4.4675** |
 
-* **Speed**: RMSE ≈ 0.31 (excellent)
-* **COG**: RMSE ≈ 2.60° (usable for course corrections)
-* **Depth**: RMSE ≈ 2.55 m (good for coarse bathymetry)
-
+* **Speed**: RMSE ≈ 0.31 
+* **COG**: RMSE ≈ 2.60° 
+* **Depth**: RMSE ≈ 2.55 m 
 ---
 
-## 8. Observations & Limitations (10 %)
-
+## 8. Observations & Limitations 
 1. **Speed Prediction** is highly accurate––sonar intensity changes correlate well with velocity.
 2. **COG & Depth Errors** remain moderate:
 
